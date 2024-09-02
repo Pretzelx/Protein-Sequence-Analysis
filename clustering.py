@@ -8,7 +8,7 @@ amino_acids = 'ACDEFGHIKLMNPQRSTVWY'
 def encode_sequence(sequence, amino_acids=amino_acids):
     return [amino_acids.index(aa) for aa in sequence]
 
-def perform_clustering(sequences, n_clusters=2):
+def perform_clustering(sequences, n_clusters=3):
     encoded_sequences = np.array([encode_sequence(seq) for seq in sequences])
     pca = PCA(n_components=2)
     reduced_data = pca.fit_transform(encoded_sequences)
