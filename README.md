@@ -17,6 +17,10 @@ This project generates random protein sequences, clusters them using K-Means, an
 **main.py:** Orchestrates the sequence generation, clustering, and visualisation.
 
 ## Example Output
+![image](https://github.com/user-attachments/assets/b1d707d0-164b-446d-9b04-ec9f3bc073a3)
+![PCA fig 1](https://github.com/user-attachments/assets/c3ba14db-a101-442d-92d9-0e4c78c28aad)
+
+
 
 ## Installation
 
@@ -24,9 +28,9 @@ This project generates random protein sequences, clusters them using K-Means, an
    ```bash
    git clone https://github.com/Pretzelx/Protein-Sequence-Analysis.git
 2. **Navigate to the project directory:**
-   cd protein-sequence-clustering
-3. **Install the required packages:**
-   pip install -r requirements.txt
+   cd protein-sequence-analysis
+3. **Run the code using the following command:**
+   python main.py
 
 
 
